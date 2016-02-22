@@ -1,5 +1,6 @@
 <!doctype html> <html ng-app="rptghpApp" class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.42abf323.css"> <link rel="stylesheet" href="styles/main.0637914f.css"> <style type="text/css">html, body {
-      font-family: {{myfont}}; 
+      font-family: {{myfont}};
+      letter-spacing: .05em;
     }</style>  <body> <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]--> <snap-drawer> <accordion close-others="true" id="left-navigation-accordion" ng-init="status = {apps: false, webdesign: false, webdev: false, hardware:false}"> <a href="#/"><h4 class="nav-heading nav-link-inv" style="padding-left: 15px">Home</h4></a> <accordion-group heading="Apps" ng-class="{activenav: status.apps}" is-open="status.apps"> <ul ng-class="{openlist: status.apps}"> <li><a href="#/apps/lirril">LiRRiL</a></li> <!--          <li><a href="#/apps/sqort">Sqort</a></li>
@@ -14,4 +15,4 @@
  }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
  ga('create', 'UA-XXXXX-X');
- ga('send', 'pageview');</script> <script src="scripts/vendor.b630871e.js"></script> <script src="scripts/scripts.8eedfa7b.js"></script>  
+ ga('send', 'pageview');</script> <script src="scripts/vendor.b630871e.js"></script> <script src="scripts/scripts.81ce8291.js"></script>  
