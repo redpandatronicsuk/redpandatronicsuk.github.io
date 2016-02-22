@@ -1,0 +1,1 @@
+<h1 style="margin-top: 50px">Blog Posts</h1> <ul style="padding: 0"> <li ng-repeat="post in posts" style="list-style: none"> <a href="#/blog-post/{{post.fl}}"> <h1 style="background: rgba(255,255,255,0.5); padding-left: .5em;padding-right: .5em; border-radius: .5em">{{post.name}} <small>{{post.date| date}}</small></h1> </a> <p> {{post.description}} </p> </li> </ul>
